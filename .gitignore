@@ -1,0 +1,20 @@
+# Node
+node_modules/
+*.log
+*.tmp
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/videos/
+/screenshots/
+
+# Allure
+allure-results/
+allure-report/
+
+# macOS
+.DS_Store

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "pages/*": ["pages/*"],
+      "tests/*": ["tests/*"],
+      "utils/*": ["utils/*"],
+      "fixtures/*": ["fixtures/*"]
+    }
+  },
+  "include": ["tests", "pages", "fixtures", "utils"]
+}
