@@ -28,7 +28,7 @@ jobs:
 
       - run: npm run test:report --if-present
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: allure-report
