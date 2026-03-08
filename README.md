@@ -77,8 +77,11 @@ Allure is integrated for detailed, step-by-step reporting with screenshots and v
 ## Run tests
 ```npm test```
 
-## Generate and open test report
+## Generate test report
 ```npm run test:report```
+
+## Open test report
+```npm run test:report:open```
 
 ## Features in the Allure report:
 
